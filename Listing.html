@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TravelTide</title>
+   
+
+    <!-- font-awesome -->
+    <script src="https://kit.fontawesome.com/578fb75e6b.js" crossorigin="anonymous"></script>
+    <!-- main css -->
+    <link rel="stylesheet" href="styles.css " />
+  </head>
+  <body>
+   <nav id="navBar" class="navbar-white">
+      <img class="logo" src="assets/images/logo-red.png" alt="logo">
+      <ul class="nav-links">
+         <li><a href="#" class="active" >Popular Place</a></li>
+         <li><a href="#">Travel Outside</a></li>
+         <li><a href="#">Online Packages</a></li>
+      </ul>
+      <a href="#" class="register-btn">Resister Now</a>
+      <i class="fa-solid fa-bars" onClick="togglebtn()" ></i>
+   </nav>
+
+   <div class="container">
+      <div class="list-container">
+         <div class="left-col">
+            <p>200+ Options</p>
+            <h1>Recommended Place In San Francisco</h1>
+            <div class="house">
+               <div class="house-img">
+                  <img src="assets/images/image-s1.png" alt="">
+               </div>
+               <div class="house-info">
+                  <p>Private Villa in San Francisco</p>
+                  <h3>Deluxe Queen Room With Street View</h3>
+                  <p>1 Bedroom / 1 Bathroom / Wifi / Kitchen</p>
+               </div>
+            </div>
+         </div>
+         <div class="right-col"></div>
+      </div>
+
+
+
+      <div class="footer">
+         <a href="https://www.facebook.com">
+            <i class="fa-brands fa-facebook-f"></i>
+         </a>
+         <a href="https://www.x.com">
+            <i class="fa-brands fa-x-twitter"></i>
+         </a>
+         <a href="https://www.instagram.com">
+            <i class="fa-brands fa-instagram"></i>
+         </a>
+         <a href="https://youtube.com">
+            <i class="fa-brands fa-youtube"></i>
+         </a>
+         <a href="https://youtube.com">
+            <i class="fa-brands fa-linkedin-in"></i>
+         </a>
+         <hr>
+   
+         <p>Copyright &#169;, 2024 TravelTide.</p> 
+      </div>
+   </div>
+
+
+
+   
+
+      <script>
+         var navBar = document.getElementById("navBar");
+         function togglebtn(){
+            navBar.classList.toggle("hidemenu");
+         }
+      </script>
+   </div>
+  </body>
